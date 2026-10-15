@@ -1,0 +1,687 @@
+{
+  "tabela_taxas_comissoes": [
+    {
+      "id": 1,
+      "canal": "Imposto",
+      "condicao": "N/A",
+      "taxa_percentual": 14.0,
+      "taxa_fixa_reais": 0.0
+    },
+    {
+      "id": 2,
+      "canal": "Mercado Livre",
+      "condicao": "Premium",
+      "taxa_percentual": 17.0,
+      "taxa_fixa_reais": 0.0
+    },
+    {
+      "id": 3,
+      "canal": "Mercado Livre",
+      "condicao": "Clássico",
+      "taxa_percentual": 12.0,
+      "taxa_fixa_reais": 0.0
+    },
+    {
+      "id": 6,
+      "canal": "Kwai",
+      "condicao": "Padrão",
+      "taxa_percentual": 20.0,
+      "taxa_fixa_reais": 4.0
+    },
+    {
+      "id": 7,
+      "canal": "Magalu",
+      "condicao": "Padrão",
+      "taxa_percentual": 18.0,
+      "taxa_fixa_reais": 0.0
+    },
+    {
+      "id": 8,
+      "canal": "Amazon",
+      "condicao": "Padrão",
+      "taxa_percentual": 11.0,
+      "taxa_fixa_reais": 0.0
+    },
+    {
+      "id": 9,
+      "canal": "TikTok",
+      "condicao": "Até R$ 50,00",
+      "taxa_percentual": 10.0,
+      "taxa_fixa_reais": 4.0
+    },
+    {
+      "id": 10,
+      "canal": "TikTok",
+      "condicao": "Acima de R$ 50,00",
+      "taxa_percentual": 6.0,
+      "taxa_fixa_reais": 6.0
+    },
+    {
+      "id": 11,
+      "canal": "Amazon",
+      "condicao": "Até R$ 30",
+      "taxa_percentual": 0.0,
+      "taxa_fixa_reais": 4.5
+    },
+    {
+      "id": 12,
+      "canal": "Amazon",
+      "condicao": "De R$ 30 a R$ 49,99",
+      "taxa_percentual": 0.0,
+      "taxa_fixa_reais": 6.5
+    },
+    {
+      "id": 13,
+      "canal": "Amazon",
+      "condicao": "De R$ 50 a R$ 78,99",
+      "taxa_percentual": 0.0,
+      "taxa_fixa_reais": 6.75
+    },
+    {
+      "id": 14,
+      "canal": "Tiktok",
+      "condicao": "Afiliado",
+      "taxa_percentual": 10.0,
+      "taxa_fixa_reais": 0.0
+    }
+  ],
+  "tabela_frete_ml": [
+    {
+      "id": 1,
+      "peso": "Até 0,3 kg",
+      "faixa_0_18_99": 5.65,
+      "faixa_19_48_99": 6.55,
+      "faixa_49_78_99": 7.75,
+      "faixa_79_99_99": 12.35,
+      "faixa_100_119_99": 14.35,
+      "faixa_120_149_99": 16.45,
+      "faixa_150_199_99": 18.45,
+      "faixa_200_mais": 20.95
+    },
+    {
+      "id": 2,
+      "peso": "De 0,3 a 0,5 kg",
+      "faixa_0_18_99": 5.95,
+      "faixa_19_48_99": 6.65,
+      "faixa_49_78_99": 7.85,
+      "faixa_79_99_99": 13.25,
+      "faixa_100_119_99": 15.45,
+      "faixa_120_149_99": 17.65,
+      "faixa_150_199_99": 19.85,
+      "faixa_200_mais": 22.55
+    },
+    {
+      "id": 3,
+      "peso": "De 0,5 a 1 kg",
+      "faixa_0_18_99": 6.05,
+      "faixa_19_48_99": 6.75,
+      "faixa_49_78_99": 7.95,
+      "faixa_79_99_99": 13.85,
+      "faixa_100_119_99": 16.15,
+      "faixa_120_149_99": 18.45,
+      "faixa_150_199_99": 20.75,
+      "faixa_200_mais": 23.65
+    },
+    {
+      "id": 4,
+      "peso": "De 1 a 1,5 kg",
+      "faixa_0_18_99": 6.15,
+      "faixa_19_48_99": 6.85,
+      "faixa_49_78_99": 8.05,
+      "faixa_79_99_99": 14.15,
+      "faixa_100_119_99": 16.45,
+      "faixa_120_149_99": 18.85,
+      "faixa_150_199_99": 21.15,
+      "faixa_200_mais": 24.65
+    },
+    {
+      "id": 5,
+      "peso": "De 1,5 a 2 kg",
+      "faixa_0_18_99": 6.25,
+      "faixa_19_48_99": 6.95,
+      "faixa_49_78_99": 8.15,
+      "faixa_79_99_99": 14.45,
+      "faixa_100_119_99": 16.85,
+      "faixa_120_149_99": 19.25,
+      "faixa_150_199_99": 21.65,
+      "faixa_200_mais": 24.65
+    },
+    {
+      "id": 6,
+      "peso": "De 2 a 3 kg",
+      "faixa_0_18_99": 6.35,
+      "faixa_19_48_99": 7.95,
+      "faixa_49_78_99": 8.55,
+      "faixa_79_99_99": 15.75,
+      "faixa_100_119_99": 18.35,
+      "faixa_120_149_99": 21.05,
+      "faixa_150_199_99": 23.65,
+      "faixa_200_mais": 26.25
+    },
+    {
+      "id": 7,
+      "peso": "De 3 a 4 kg",
+      "faixa_0_18_99": 6.45,
+      "faixa_19_48_99": 8.15,
+      "faixa_49_78_99": 8.95,
+      "faixa_79_99_99": 17.05,
+      "faixa_100_119_99": 19.85,
+      "faixa_120_149_99": 22.65,
+      "faixa_150_199_99": 25.55,
+      "faixa_200_mais": 28.35
+    },
+    {
+      "id": 8,
+      "peso": "De 4 a 5 kg",
+      "faixa_0_18_99": 6.55,
+      "faixa_19_48_99": 8.35,
+      "faixa_49_78_99": 9.75,
+      "faixa_79_99_99": 18.45,
+      "faixa_100_119_99": 21.55,
+      "faixa_120_149_99": 24.65,
+      "faixa_150_199_99": 27.75,
+      "faixa_200_mais": 30.75
+    },
+    {
+      "id": 9,
+      "peso": "De 5 a 6 kg",
+      "faixa_0_18_99": 6.65,
+      "faixa_19_48_99": 8.55,
+      "faixa_49_78_99": 9.95,
+      "faixa_79_99_99": 25.45,
+      "faixa_100_119_99": 28.55,
+      "faixa_120_149_99": 32.65,
+      "faixa_150_199_99": 35.75,
+      "faixa_200_mais": 39.75
+    },
+    {
+      "id": 10,
+      "peso": "De 6 a 7 kg",
+      "faixa_0_18_99": 6.75,
+      "faixa_19_48_99": 8.75,
+      "faixa_49_78_99": 10.15,
+      "faixa_79_99_99": 27.05,
+      "faixa_100_119_99": 31.05,
+      "faixa_120_149_99": 36.05,
+      "faixa_150_199_99": 40.05,
+      "faixa_200_mais": 44.05
+    },
+    {
+      "id": 11,
+      "peso": "De 7 a 8 kg",
+      "faixa_0_18_99": 6.85,
+      "faixa_19_48_99": 8.95,
+      "faixa_49_78_99": 10.35,
+      "faixa_79_99_99": 28.85,
+      "faixa_100_119_99": 33.65,
+      "faixa_120_149_99": 38.45,
+      "faixa_150_199_99": 43.25,
+      "faixa_200_mais": 48.05
+    },
+    {
+      "id": 12,
+      "peso": "De 8 a 9 kg",
+      "faixa_0_18_99": 6.95,
+      "faixa_19_48_99": 9.15,
+      "faixa_49_78_99": 10.55,
+      "faixa_79_99_99": 29.65,
+      "faixa_100_119_99": 34.55,
+      "faixa_120_149_99": 39.55,
+      "faixa_150_199_99": 44.45,
+      "faixa_200_mais": 49.35
+    },
+    {
+      "id": 13,
+      "peso": "De 9 a 11 kg",
+      "faixa_0_18_99": 7.05,
+      "faixa_19_48_99": 9.55,
+      "faixa_49_78_99": 10.95,
+      "faixa_79_99_99": 41.25,
+      "faixa_100_119_99": 48.05,
+      "faixa_120_149_99": 54.95,
+      "faixa_150_199_99": 61.75,
+      "faixa_200_mais": 68.65
+    },
+    {
+      "id": 14,
+      "peso": "De 11 a 13 kg",
+      "faixa_0_18_99": 7.15,
+      "faixa_19_48_99": 9.95,
+      "faixa_49_78_99": 11.35,
+      "faixa_79_99_99": 42.15,
+      "faixa_100_119_99": 49.25,
+      "faixa_120_149_99": 56.25,
+      "faixa_150_199_99": 63.25,
+      "faixa_200_mais": 70.25
+    },
+    {
+      "id": 15,
+      "peso": "De 13 a 15 kg",
+      "faixa_0_18_99": 7.25,
+      "faixa_19_48_99": 10.15,
+      "faixa_49_78_99": 11.55,
+      "faixa_79_99_99": 45.05,
+      "faixa_100_119_99": 52.45,
+      "faixa_120_149_99": 59.95,
+      "faixa_150_199_99": 67.45,
+      "faixa_200_mais": 74.95
+    },
+    {
+      "id": 16,
+      "peso": "De 15 a 17 kg",
+      "faixa_0_18_99": 7.35,
+      "faixa_19_48_99": 10.35,
+      "faixa_49_78_99": 11.75,
+      "faixa_79_99_99": 48.55,
+      "faixa_100_119_99": 56.05,
+      "faixa_120_149_99": 63.55,
+      "faixa_150_199_99": 70.75,
+      "faixa_200_mais": 78.65
+    },
+    {
+      "id": 17,
+      "peso": "De 17 a 20 kg",
+      "faixa_0_18_99": 7.45,
+      "faixa_19_48_99": 10.55,
+      "faixa_49_78_99": 11.95,
+      "faixa_79_99_99": 54.75,
+      "faixa_100_119_99": 63.85,
+      "faixa_120_149_99": 72.95,
+      "faixa_150_199_99": 82.05,
+      "faixa_200_mais": 91.15
+    },
+    {
+      "id": 18,
+      "peso": "De 20 a 25 kg",
+      "faixa_0_18_99": 7.65,
+      "faixa_19_48_99": 10.95,
+      "faixa_49_78_99": 12.15,
+      "faixa_79_99_99": 64.05,
+      "faixa_100_119_99": 75.05,
+      "faixa_120_149_99": 84.75,
+      "faixa_150_199_99": 95.35,
+      "faixa_200_mais": 105.95
+    },
+    {
+      "id": 19,
+      "peso": "De 25 a 30 kg",
+      "faixa_0_18_99": 7.75,
+      "faixa_19_48_99": 11.15,
+      "faixa_49_78_99": 12.35,
+      "faixa_79_99_99": 65.95,
+      "faixa_100_119_99": 75.45,
+      "faixa_120_149_99": 85.55,
+      "faixa_150_199_99": 96.25,
+      "faixa_200_mais": 106.95
+    },
+    {
+      "id": 20,
+      "peso": "De 30 a 40 kg",
+      "faixa_0_18_99": 7.85,
+      "faixa_19_48_99": 11.35,
+      "faixa_49_78_99": 12.55,
+      "faixa_79_99_99": 67.75,
+      "faixa_100_119_99": 78.95,
+      "faixa_120_149_99": 88.95,
+      "faixa_150_199_99": 99.15,
+      "faixa_200_mais": 107.05
+    },
+    {
+      "id": 21,
+      "peso": "De 40 a 50 kg",
+      "faixa_0_18_99": 7.95,
+      "faixa_19_48_99": 11.55,
+      "faixa_49_78_99": 12.75,
+      "faixa_79_99_99": 70.25,
+      "faixa_100_119_99": 81.05,
+      "faixa_120_149_99": 92.05,
+      "faixa_150_199_99": 102.55,
+      "faixa_200_mais": 110.75
+    },
+    {
+      "id": 22,
+      "peso": "De 50 a 60 kg",
+      "faixa_0_18_99": 8.05,
+      "faixa_19_48_99": 11.75,
+      "faixa_49_78_99": 12.95,
+      "faixa_79_99_99": 74.95,
+      "faixa_100_119_99": 86.45,
+      "faixa_120_149_99": 98.15,
+      "faixa_150_199_99": 109.35,
+      "faixa_200_mais": 118.15
+    },
+    {
+      "id": 23,
+      "peso": "De 60 a 70 kg",
+      "faixa_0_18_99": 8.15,
+      "faixa_19_48_99": 11.95,
+      "faixa_49_78_99": 13.15,
+      "faixa_79_99_99": 80.25,
+      "faixa_100_119_99": 92.95,
+      "faixa_120_149_99": 105.05,
+      "faixa_150_199_99": 117.15,
+      "faixa_200_mais": 126.55
+    },
+    {
+      "id": 24,
+      "peso": "De 70 a 80 kg",
+      "faixa_0_18_99": 8.25,
+      "faixa_19_48_99": 12.15,
+      "faixa_49_78_99": 13.35,
+      "faixa_79_99_99": 83.95,
+      "faixa_100_119_99": 97.05,
+      "faixa_120_149_99": 109.85,
+      "faixa_150_199_99": 122.45,
+      "faixa_200_mais": 132.25
+    },
+    {
+      "id": 25,
+      "peso": "De 80 a 90 kg",
+      "faixa_0_18_99": 8.35,
+      "faixa_19_48_99": 12.35,
+      "faixa_49_78_99": 13.55,
+      "faixa_79_99_99": 93.25,
+      "faixa_100_119_99": 107.45,
+      "faixa_120_149_99": 122.05,
+      "faixa_150_199_99": 136.05,
+      "faixa_200_mais": 146.95
+    },
+    {
+      "id": 26,
+      "peso": "De 90 a 100 kg",
+      "faixa_0_18_99": 8.45,
+      "faixa_19_48_99": 12.55,
+      "faixa_49_78_99": 13.75,
+      "faixa_79_99_99": 106.55,
+      "faixa_100_119_99": 123.95,
+      "faixa_120_149_99": 139.55,
+      "faixa_150_199_99": 155.55,
+      "faixa_200_mais": 167.95
+    },
+    {
+      "id": 27,
+      "peso": "De 100 a 125 kg",
+      "faixa_0_18_99": 8.55,
+      "faixa_19_48_99": 12.75,
+      "faixa_49_78_99": 13.95,
+      "faixa_79_99_99": 119.25,
+      "faixa_100_119_99": 138.05,
+      "faixa_120_149_99": 156.05,
+      "faixa_150_199_99": 173.95,
+      "faixa_200_mais": 187.95
+    },
+    {
+      "id": 28,
+      "peso": "De 125 a 150 kg",
+      "faixa_0_18_99": 8.65,
+      "faixa_19_48_99": 12.85,
+      "faixa_49_78_99": 14.15,
+      "faixa_79_99_99": 126.55,
+      "faixa_100_119_99": 146.15,
+      "faixa_120_149_99": 165.65,
+      "faixa_150_199_99": 184.65,
+      "faixa_200_mais": 199.45
+    },
+    {
+      "id": 29,
+      "peso": "Mais de 150 kg",
+      "faixa_0_18_99": 8.75,
+      "faixa_19_48_99": 12.95,
+      "faixa_49_78_99": 14.35,
+      "faixa_79_99_99": 166.15,
+      "faixa_100_119_99": 192.45,
+      "faixa_120_149_99": 217.55,
+      "faixa_150_199_99": 242.55,
+      "faixa_200_mais": 261.95
+    }
+  ],
+  "tabela_frete_shopee": [
+    {
+      "id": 1,
+      "faixa": "Faixa 1",
+      "valor_do_produto": "até R$ 79,99",
+      "taxa_percentual": 20.0,
+      "taxa_fixa_reais": 4.0
+    },
+    {
+      "id": 2,
+      "faixa": "Faixa 2",
+      "valor_do_produto": "de R$ 80 a R$ 99,99",
+      "taxa_percentual": 14.0,
+      "taxa_fixa_reais": 16.0
+    },
+    {
+      "id": 3,
+      "faixa": "Faixa 3",
+      "valor_do_produto": "de R$ 100 a R$ 199,99",
+      "taxa_percentual": 14.0,
+      "taxa_fixa_reais": 20.0
+    },
+    {
+      "id": 4,
+      "faixa": "Faixa 4",
+      "valor_do_produto": "de R$ 200 a R$ 499,99",
+      "taxa_percentual": 14.0,
+      "taxa_fixa_reais": 26.0
+    },
+    {
+      "id": 5,
+      "faixa": "Faixa 5",
+      "valor_do_produto": "Mais de R$ 500",
+      "taxa_percentual": 14.0,
+      "taxa_fixa_reais": 26.0
+    }
+  ],
+  "tabela_frete_amazon": [
+    {
+      "id": 1,
+      "peso": "0 a 250 g",
+      "faixa_79_99_99": 11.95,
+      "faixa_100_119_99": 13.95,
+      "faixa_120_149_99": 15.95,
+      "faixa_150_199_99": 17.95
+    },
+    {
+      "id": 2,
+      "peso": "250 a 500 g",
+      "faixa_79_99_99": 12.85,
+      "faixa_100_119_99": 15.0,
+      "faixa_120_149_99": 17.15,
+      "faixa_150_199_99": 19.3
+    },
+    {
+      "id": 3,
+      "peso": "500 g a 1 kg",
+      "faixa_79_99_99": 13.45,
+      "faixa_100_119_99": 15.7,
+      "faixa_120_149_99": 17.95,
+      "faixa_150_199_99": 20.2
+    },
+    {
+      "id": 4,
+      "peso": "1 a 2 kg",
+      "faixa_79_99_99": 14.0,
+      "faixa_100_119_99": 16.35,
+      "faixa_120_149_99": 18.75,
+      "faixa_150_199_99": 21.1
+    },
+    {
+      "id": 5,
+      "peso": "2 a 3 kg",
+      "faixa_79_99_99": 14.95,
+      "faixa_100_119_99": 17.45,
+      "faixa_120_149_99": 19.95,
+      "faixa_150_199_99": 22.4
+    },
+    {
+      "id": 6,
+      "peso": "3 a 4 kg",
+      "faixa_79_99_99": 16.15,
+      "faixa_100_119_99": 18.85,
+      "faixa_120_149_99": 21.55,
+      "faixa_150_199_99": 24.2
+    },
+    {
+      "id": 7,
+      "peso": "4 a 5 kg",
+      "faixa_79_99_99": 17.0,
+      "faixa_100_119_99": 19.9,
+      "faixa_120_149_99": 22.75,
+      "faixa_150_199_99": 25.6
+    },
+    {
+      "id": 8,
+      "peso": "5 a 6 kg",
+      "faixa_79_99_99": 25.0,
+      "faixa_100_119_99": 30.0,
+      "faixa_120_149_99": 34.0,
+      "faixa_150_199_99": 38.0
+    },
+    {
+      "id": 9,
+      "peso": "6 a 7 kg",
+      "faixa_79_99_99": 26.0,
+      "faixa_100_119_99": 31.0,
+      "faixa_120_149_99": 35.0,
+      "faixa_150_199_99": 39.0
+    },
+    {
+      "id": 10,
+      "peso": "7 a 8 kg",
+      "faixa_79_99_99": 27.0,
+      "faixa_100_119_99": 32.0,
+      "faixa_120_149_99": 36.0,
+      "faixa_150_199_99": 40.0
+    },
+    {
+      "id": 11,
+      "peso": "8 a 9 kg",
+      "faixa_79_99_99": 28.0,
+      "faixa_100_119_99": 33.0,
+      "faixa_120_149_99": 37.0,
+      "faixa_150_199_99": 41.0
+    },
+    {
+      "id": 12,
+      "peso": "9 a 10 kg",
+      "faixa_79_99_99": 39.5,
+      "faixa_100_119_99": 46.0,
+      "faixa_120_149_99": 52.75,
+      "faixa_150_199_99": 59.0
+    },
+    {
+      "id": 13,
+      "peso": "Kg adicional",
+      "faixa_79_99_99": 3.05,
+      "faixa_100_119_99": 3.05,
+      "faixa_120_149_99": 3.05,
+      "faixa_150_199_99": 3.5
+    }
+  ],
+  "tabela_frete_amazon_brl200": [
+    {
+      "id": 1,
+      "peso": "0 a 250 g",
+      "sp_capital": 19.95,
+      "outras_capitais_sul_sudeste": 19.95,
+      "interior_sul_sudeste": 20.45,
+      "centro_oeste_norte_nordeste": 20.45
+    },
+    {
+      "id": 2,
+      "peso": "250 a 500 g",
+      "sp_capital": 20.45,
+      "outras_capitais_sul_sudeste": 20.45,
+      "interior_sul_sudeste": 20.95,
+      "centro_oeste_norte_nordeste": 20.95
+    },
+    {
+      "id": 3,
+      "peso": "500 g a 1 kg",
+      "sp_capital": 21.45,
+      "outras_capitais_sul_sudeste": 21.45,
+      "interior_sul_sudeste": 21.95,
+      "centro_oeste_norte_nordeste": 21.95
+    },
+    {
+      "id": 4,
+      "peso": "1 a 2 kg",
+      "sp_capital": 22.95,
+      "outras_capitais_sul_sudeste": 22.95,
+      "interior_sul_sudeste": 23.45,
+      "centro_oeste_norte_nordeste": 23.45
+    },
+    {
+      "id": 5,
+      "peso": "2 a 3 kg",
+      "sp_capital": 23.95,
+      "outras_capitais_sul_sudeste": 23.95,
+      "interior_sul_sudeste": 24.45,
+      "centro_oeste_norte_nordeste": 24.45
+    },
+    {
+      "id": 6,
+      "peso": "3 a 4 kg",
+      "sp_capital": 25.95,
+      "outras_capitais_sul_sudeste": 25.95,
+      "interior_sul_sudeste": 25.95,
+      "centro_oeste_norte_nordeste": 25.95
+    },
+    {
+      "id": 7,
+      "peso": "4 a 5 kg",
+      "sp_capital": 27.95,
+      "outras_capitais_sul_sudeste": 27.95,
+      "interior_sul_sudeste": 27.95,
+      "centro_oeste_norte_nordeste": 27.95
+    },
+    {
+      "id": 8,
+      "peso": "5 a 6 kg",
+      "sp_capital": 36.95,
+      "outras_capitais_sul_sudeste": 36.95,
+      "interior_sul_sudeste": 36.95,
+      "centro_oeste_norte_nordeste": 36.95
+    },
+    {
+      "id": 9,
+      "peso": "6 a 7 kg",
+      "sp_capital": 39.45,
+      "outras_capitais_sul_sudeste": 39.45,
+      "interior_sul_sudeste": 39.45,
+      "centro_oeste_norte_nordeste": 39.45
+    },
+    {
+      "id": 10,
+      "peso": "7 a 8 kg",
+      "sp_capital": 40.45,
+      "outras_capitais_sul_sudeste": 40.45,
+      "interior_sul_sudeste": 40.45,
+      "centro_oeste_norte_nordeste": 40.45
+    },
+    {
+      "id": 11,
+      "peso": "8 a 9 kg",
+      "sp_capital": 45.45,
+      "outras_capitais_sul_sudeste": 46.95,
+      "interior_sul_sudeste": 46.95,
+      "centro_oeste_norte_nordeste": 46.95
+    },
+    {
+      "id": 12,
+      "peso": "9 a 10 kg",
+      "sp_capital": 59.95,
+      "outras_capitais_sul_sudeste": 61.45,
+      "interior_sul_sudeste": 65.95,
+      "centro_oeste_norte_nordeste": 65.95
+    },
+    {
+      "id": 13,
+      "peso": "Kg adicional",
+      "sp_capital": 4.0,
+      "outras_capitais_sul_sudeste": 4.0,
+      "interior_sul_sudeste": 4.0,
+      "centro_oeste_norte_nordeste": 4.0
+    }
+  ]
+}
