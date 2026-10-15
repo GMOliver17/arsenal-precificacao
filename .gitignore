@@ -1,0 +1,25 @@
+# Configuracoes e dados locais
+config.json
+colunas_visiveis.json
+.env
+.env.*
+*.pem
+*.key
+arsenal_precificacao.sql
+backups/
+*.log
+
+# Ambientes, caches e artefatos
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.tmp/
+tests/.tmp_mysql/
+build/
+dist/
+.idea/
+.vscode/
+*.exe
+*.zip

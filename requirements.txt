@@ -1,0 +1,5 @@
+flet==0.86.5
+flet-desktop==0.86.5
+mysql-connector-python==26.7.0
+bcrypt==5.0.0
+openpyxl==3.1.5
